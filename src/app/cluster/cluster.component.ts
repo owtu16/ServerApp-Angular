@@ -54,5 +54,5 @@ export class ClusterComponent implements OnInit {
     console.log('array is ' + this._postsArray.toString());
   }
 
-  
+  // This is a comment
 }
