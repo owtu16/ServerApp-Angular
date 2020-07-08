@@ -1,0 +1,22 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h2>Server List</h2>
+    </div>
+    <div class="panel-body">
+        <table class="table table-dark">
+            <thead>
+                <tr>
+                    <th>Location</th>
+                    <th>Servers Available</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of _postsArray">
+                 
+                    <td>{{ item.k }}</td>
+                    <td>{{ item.m }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
