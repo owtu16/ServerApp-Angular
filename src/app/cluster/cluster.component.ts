@@ -55,4 +55,5 @@ export class ClusterComponent implements OnInit {
   }
 
   // This is a comment
+  // This is another comment
 }
